@@ -204,7 +204,9 @@ with tab2:
         for _,row in filtered.iterrows():
             fc_arrow="▲" if row["3mo_forecast_%"]>0 else "▼"
             fc_color="#f06c6c" if row["3mo_forecast_%"]>0 else "#5eca8a"
-            st.markdown(f"<div class='advice-card {ADVICE_CLASS.get(row[\"advice\"],\"advice-neutral\")}' style='display:flex;justify-content:space-between;align-items:center;'><div><strong style='color:#e8eaf0;'>{row[\"sentiment\"]} {row[\"item\"]}</strong><span style='color:#5a6070;font-size:12px;margin-left:8px;'>{row[\"category\"]}</span><div style='font-size:12px;color:#8a90a0;margin-top:4px;'>{row[\"detail\"]}</div></div><div style='text-align:right;min-width:120px;'><div style='font-size:16px;font-weight:600;color:#e8eaf0;font-family:DM Mono;'>{row[\"current_price\"]}</div><div style='font-size:12px;color:{fc_color};'>{fc_arrow} {abs(row[\"3mo_forecast_%\"]):.1f}% in 3mo</div></div></div>",unsafe_allow_html=True)
+            advice_css = ADVICE_CLASS.get(row["advice"], "advice-neutral")
+            st.markdown(f"<div class='advice-card {advice_css}'>{row['item']} — {row['detail']} — {row['current_price']}</div>", unsafe_allow_html=True)
+    
 
 with tab3:
     st.markdown("<div style='padding:1rem 0 0.5rem;'><span style='font-size:24px;font-weight:600;color:#e8eaf0;'>Geopolitical Risk Index</span></div><div style='font-size:13px;color:#5a6070;margin-bottom:1.5rem;'>How exposed is each category to current global events? Derived from live news sentiment across all tracked items.</div>",unsafe_allow_html=True)
