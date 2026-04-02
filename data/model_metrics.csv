@@ -1,0 +1,54 @@
+item,MAE,RMSE,MAPE_%
+Airline fares,5.2093,5.8996,1.27
+Alcoholic beverages away from home,2.1033,2.7368,0.92
+Apparel (overall),0.9054,0.9878,0.69
+Apples (lb),0.0145,0.0156,2.34
+Auto insurance,32.3187,36.2218,11.02
+Bacon (lb),0.2051,0.2683,3.0
+Bananas (lb),0.0905,0.0977,5.73
+"Beer, at home (6 pack)",0.034,0.0414,1.91
+"Bread, white (loaf)",0.184,0.2155,9.44
+Butter (lb),0.3692,0.3863,6.06
+Cheddar cheese (lb),0.2338,0.2578,4.14
+Chicken breast (lb),0.0782,0.0861,1.38
+"Coffee, ground (13 oz)",0.1324,0.1775,2.04
+"Cola, 2-liter",0.3863,0.4675,6.02
+College tuition,16.2178,24.6224,2.22
+Dental services,1.8514,2.1268,0.43
+Education & communication,1.0971,1.2003,0.75
+Eggs (dozen),0.8278,0.9232,25.08
+Electricity (kWh),0.0038,0.0049,2.16
+Fast food restaurants,9.7914,10.3942,2.28
+Food at employee sites,18.4422,20.9965,5.8
+Footwear,0.8737,1.1501,0.6
+Full-service restaurants,3.6586,4.1742,0.99
+"Gasoline, midgrade (gallon)",0.4822,0.534,12.38
+"Gasoline, premium (gallon)",0.5159,0.5678,12.06
+"Gasoline, regular (gallon)",0.449,0.4987,12.95
+Ground beef (lb),0.0972,0.1162,1.82
+Hospital services,7.9114,10.0761,0.73
+Household furnishings,7.0047,8.3749,2.61
+Internet services,11.6076,15.2523,1.36
+Lettuce (head),0.1113,0.142,3.05
+Medical care (overall),1.6187,2.4209,0.29
+Men's apparel,0.8747,1.0088,0.68
+"Milk (whole, gallon)",0.1389,0.1578,3.52
+Natural gas (therm),0.1165,0.141,8.24
+New cars,0.8315,0.9534,0.47
+"Orange juice, frozen (16 oz)",0.059,0.0691,4.32
+Owners' equiv rent,1.8049,2.317,0.43
+Pets & pet products,1.5321,1.9224,1.24
+Pork chops (lb),0.1082,0.1206,5.42
+Potatoes (lb),0.0604,0.0698,6.13
+Prescription drugs,7.7891,8.4133,1.89
+Recreation (overall),2.2293,2.4572,1.61
+Rent of primary residence,1.3476,1.6244,0.4
+Sporting goods,4.0509,4.6114,4.72
+Sugar (5 lb bag),0.0445,0.0584,4.45
+Televisions,1.0815,1.276,0.92
+Tomatoes (lb),0.0978,0.1203,4.81
+Used cars & trucks,5.0685,5.8492,2.83
+Vehicle maintenance & repair,2.909,3.5967,1.6
+Water & sewer utilities,1.7369,2.3978,0.42
+White rice (lb),0.0531,0.0622,9.39
+Women's apparel,1.2146,1.4234,1.11
