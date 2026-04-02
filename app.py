@@ -67,7 +67,7 @@ def load_raw():
     p=Path("data/prices.csv")
     return pd.read_csv(p,parse_dates=["date"]) if p.exists() else None
 
-@st.cache_data(ttl=1800)
+@st.cache_data(ttl=86400)
 def load_sentiment(api_key,items_tuple):
     if not api_key: return None
     try:
